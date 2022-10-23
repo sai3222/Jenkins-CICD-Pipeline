@@ -8,8 +8,8 @@ pipeline {
     WORKSPACE = "${env.WORKSPACE}"
   }
   tools {
-    maven 'localMaven'
-    jdk 'localJdk'
+    //maven 'localMaven'
+    //jdk 'localJdk'
   }
   stages {
     stage('Build') {
