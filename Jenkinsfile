@@ -7,10 +7,10 @@ pipeline {
   environment {
     WORKSPACE = "${env.WORKSPACE}"
   }
-  tools {
+//  tools {
     //maven 'localMaven'
     //jdk 'localJdk'
-  }
+//  }
   stages {
     stage('Build') {
       steps {
